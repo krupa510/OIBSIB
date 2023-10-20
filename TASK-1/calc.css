@@ -1,0 +1,39 @@
+.box {
+    border: 2px solid aqua;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 320px;
+  }
+  
+  td, th {
+    background-color: aqua;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  th {
+    background-color: palevioletred;
+  }
+  
+  #answer {
+    background-color: white;
+    color: black;
+    font-size: 40px;
+  }
+  
+  td[colspan="2"] {
+    background-color: lightgray;
+  }
+  
+  td:last-child {
+    background-color: pink;
+  }
+  
+  td:hover, th:hover {
+    background-color: bisque;
+  }
